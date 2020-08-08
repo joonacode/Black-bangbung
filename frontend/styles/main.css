@@ -1,0 +1,395 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Muli', sans-serif;
+  color: #434E52;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ecd9d9 !important;
+}
+
+@media (max-width: 990px) {
+  .bg-dark-cus {
+    background-color: #434e52;
+  }
+}
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url("../images/header.png");
+  height: 650px;
+  background-size: cover;
+}
+
+header h1,
+header p {
+  color: #fff;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header h1 {
+  font-family: 'Muli', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header .btn-get-started {
+  background-color: #F7D0E8;
+  color: #222;
+  padding: 15px 10px;
+}
+
+header .btn-get-started:hover {
+  background-color: #b8b8b8;
+  color: #222;
+}
+
+.top-why {
+  margin-top: -70px;
+}
+
+.top-why .bg-top {
+  padding: 17px 0;
+  background-color: #EBFEFD;
+  height: 150px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+.top-why .text-top {
+  margin-top: 12px;
+  font-family: Muli;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  color: #434e52;
+}
+
+@media (max-width: 990px) {
+  .top-why .bg-top {
+    height: 115px;
+  }
+  .top-why img {
+    width: 80px;
+  }
+  .top-why .text-top {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .top-why .bg-top {
+    height: 190px;
+  }
+  .top-why img {
+    width: 80px;
+  }
+  .top-why .text-top {
+    font-size: 12px;
+    margin-top: 0;
+    text-align: center;
+  }
+}
+
+#about-game {
+  margin-top: -80px;
+  background-image: url("../images/bg-baru.png");
+  background-size: cover;
+  padding: 0 0 206px 0;
+}
+
+#about-game .about-game h2 {
+  padding-top: 150px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #434e52;
+}
+
+#about-game .about-game P {
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 33px;
+  text-align: left;
+  color: #ababab;
+}
+
+@media (max-width: 767px) {
+  #kelebihan-game {
+    padding: 0 0 100px 0 !important;
+  }
+  #about-game {
+    padding: 0 0 100px 0;
+  }
+}
+
+#kelebihan-game {
+  background-image: url("../images/kelebihan.png");
+  background-size: cover;
+  padding: 100px 0 150px 0;
+}
+
+#kelebihan-game h2 {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #434e52;
+  margin-bottom: 60px;
+}
+
+#kelebihan-game .cus-mg {
+  margin-bottom: 30px;
+}
+
+#kelebihan-game .card {
+  border-radius: 5px;
+  background: #fff;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  border: 0 !important;
+}
+
+#kelebihan-game .card img {
+  margin-left: -28px;
+  margin-top: -25px;
+}
+
+#kelebihan-game .card h3 {
+  font-family: Muli;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  color: #434e52;
+  margin-left: 5px;
+}
+
+#kelebihan-game .card p {
+  font-family: Muli;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  color: #434e52;
+  clear: both;
+  padding-top: 5px;
+}
+
+#preview-game {
+  background-image: url("../images/bg-prev.png");
+  background-size: cover;
+  padding: 0 0 200px 0;
+}
+
+#preview-game .img-fluid {
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+#preview-game h2 {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #434e52;
+}
+
+#preview-game p {
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #434e52;
+  margin-bottom: 50px;
+}
+
+#preview-game .flex-column {
+  max-width: 240px;
+}
+
+#preview-game .flex-column2 {
+  max-width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#preview-game img {
+  margin-bottom: 10px;
+}
+
+#game-lain {
+  background-image: url("../images/game_lain.png");
+  background-size: cover;
+  height: 290px;
+}
+
+#game-lain h2 {
+  font-family: Muli;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #434e52;
+}
+
+.list-game {
+  padding-bottom: 100px;
+}
+
+.list-game .list-g-lain {
+  margin-top: -190px !important;
+  margin-bottom: 60px;
+}
+
+.list-game h3 {
+  font-family: Muli;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  color: #434e52;
+}
+
+.list-game p {
+  font-family: Muli;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  color: #ababab;
+}
+
+.list-game .card {
+  border: 1px solid #b5e3e3 !important;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+.list-game .card .btn-download {
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+  background: #f6bc34;
+  font-family: Muli;
+  font-weight: normal;
+  font-size: 11px;
+  text-align: left;
+  color: #fff;
+  padding: 5px 15px;
+}
+
+.list-game .card .btn-download:hover {
+  text-decoration: none;
+  background: #ecd399;
+  color: #fff;
+}
+
+.list-game .cus-m {
+  margin-bottom: 20px;
+}
+
+.list-game .btn-a {
+  padding: 10px 40px;
+  border-radius: 10px;
+  background: #6f5a7e;
+  font-family: Muli;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  color: #b7a7c2;
+}
+
+.list-game .btn-a:hover {
+  text-decoration: none;
+  background: #9883a7;
+}
+
+.list-game .btn-b {
+  padding: 10px 40px;
+  border-radius: 10px;
+  background: #CD6684;
+  font-family: Muli;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  color: #fff;
+}
+
+.list-game .btn-b:hover {
+  text-decoration: none;
+  background: #e694ab;
+}
+
+footer {
+  padding: 50px 0;
+  border-top: 1px solid #E6D7D7;
+  border-bottom: 1px solid #E6D7D7;
+}
+
+footer h2 {
+  font-family: Muli;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: left;
+  color: #434e52;
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-family: Muli;
+  padding-bottom: 10px;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+  color: #ababab;
+}
+
+footer a {
+  display: block;
+  font-family: Muli;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+  color: #ababab;
+  padding-bottom: 10px;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+.bawah {
+  font-family: Muli;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: left;
+  color: #999;
+  padding: 25px 0;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  footer .res-m {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #f0e3e3;
+  }
+}
+/*# sourceMappingURL=main.css.map */
